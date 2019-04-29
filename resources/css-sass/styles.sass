@@ -1,0 +1,905 @@
+//Colors
+
+$Yankees-Blue:   #13293D
+$Sea-Blue:       #006494
+$Green-Blue:     #247BA0
+$Sky-Blue:       #1B98E0
+$White:          #E8F1F2
+$Grey:           #FCFCFC
+$BG-Grey:        #FDFDFD
+$Package-Grey:   #606060
+$Platinum-BG:    #212121
+$Platinum-H:     #E50000
+$Cool-Red:       #F2155F
+$Angel-Grey:     #444444
+$Lucky-Grey:     #777777
+$Premium-Gold:   #FFE100
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+
+html
+  background-color: #fff
+  color: #555
+  font-family: 'Nunito', 'Arial', sans-serif
+  font-weight: 300
+  font-size: 20px
+  text-rendering: optimizeLegibility
+  overflow-x: hidden
+
+h1, h2, h3
+  font-weight: 400
+
+
+.row
+  max-width: 1140px
+  margin: 0 auto
+
+.large-background
+  height: 800px
+  width: 100%
+  background-color: $Yankees-Blue
+
+.portfolio-background
+  height: 125px
+  width: 100%
+  background-color: $Yankees-Blue
+
+.hide-nav
+  display: none
+
+.nav-bar-list
+  list-style: none
+  float: left
+  margin-top: 55px
+  font-size: 120%
+  color: $Yankees-Blue
+
+.nav-bar-list li
+  float: left
+  margin-left: 25px
+
+
+.sticky .nav-bar
+    list-style: none
+
+
+.sticky .nav-bar-list
+  color: $Grey
+  float: right
+  margin-top: 30px
+  margin-bottom: 20px
+  font-size: 110%
+
+
+.nav-bar-list li a:link,
+.nav-bar-list li a:visited
+    text-decoration: none
+    border-bottom: 2px solid transparent
+    -webkit-transition: border-bottom 0.5s
+    transition: border-bottom 0.5s
+    color: $Grey
+
+
+.nav-bar-list li a:hover,
+.nav-bar-list li a:active
+    color: $Sea-Blue
+    border-bottom: 2px solid $Sea-Blue
+
+
+.sticky
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    width: 100%
+    background-color: rgba(27, 152, 224, 0.99)
+    box-shadow: 0 2px 2px #ebebeb
+    z-index: 9999
+    padding-right: 50px
+
+.navi-btn
+  float: right
+  margin-top: 50px
+  margin-right: 30px
+  cursor: pointer
+  display: none
+
+
+
+.navi-btn i
+    font-size: 200%
+    color: #fff
+
+
+
+.welcome-container
+  height: 450px
+  width: 70%
+  margin-left: 15%
+  margin-right: 15%
+  background-color: $White
+  opacity: 0
+  color: $Green-Blue
+  text-align: center
+
+.welcome-margin-top
+  margin-top: 90px
+
+
+
+.welcome-container:animated
+  opacity: 1
+
+.welcome-box
+  padding-top: 75px
+  font-size: 250%
+  opacity: 0
+  animation-delay: 1s
+
+.welcome-text
+  border-bottom: 2px solid black
+  border-bottom-style: inset
+
+.welcome-box:animated
+  opacity: 1
+
+.enter-btn
+    background-color: $Sky-Blue
+    margin-top: 10px
+    width: 175px
+    height: 60px
+    text-align: center
+
+.enter-btn-text
+  text-align: center
+  margin-top: 17px
+  color: $White
+  font-weight: 400
+  font-size: 110%
+
+.js--wp-3
+  animation-duration: 2s
+  animation-delay: 2.5s
+
+
+.home-main-head
+  margin-top: 25px
+  text-align: center
+  margin-bottom: -35px
+
+.home-head-text
+  font-size: 350%
+
+.clearfix
+  clear: both
+
+.web-dev-header
+  text-align: center
+  padding-bottom: 10px
+
+.js--web-dev-wp
+  opacity: 0
+
+.js--ios-dev-wp
+  opacity: 0
+
+.js--books-written-wp
+  opacity: 0
+
+#web-dev-video-section,
+#web-dev-video-section2,
+#web-dev-video-section3,
+#web-dev-video-section4,
+#web-dev-video-section5,
+#web-dev-video-section6,
+#web-dev-video-section7,
+#web-dev-video-section8,
+#web-dev-video-section9,
+#web-dev-video-section10
+  text-align: center
+  padding-top: 25px
+  opacity: 1
+
+.grey-bg
+  background-color: $Grey
+  padding-bottom: 50px
+
+
+.web-dev-section
+  padding-top: 50px
+  padding-bottom: 50px
+  background-color: $Grey
+
+.hidden
+  display: none
+
+.video-des
+  margin-top: 10px
+  margin-bottom: 5px
+  color: $Sea-Blue
+
+.vid-icon,
+.vid-icon2
+  color: $Yankees-Blue
+
+.ios-dev-section
+  text-align: center
+  padding-top: 50px
+  padding-bottom: 60px
+
+.design-img
+  max-width: 200px
+
+#popup
+  background-color: $Sky-Blue
+  left: 0
+  right: 0
+  width: 1140px
+  height: 800px
+  z-index: 1
+  overflow: auto
+  color: black
+  bottom: 100px
+  animation-duration: 1s
+  top: -100px
+
+.popup-display
+  display: none
+
+
+.fixedP
+  position: fixed
+  display: block
+
+
+
+#large-video-info
+  text-align: center
+  margin-top: 200px
+  margin-left: 19%
+
+#video-info
+  z-index: 2 !important
+  text-align: center
+  margin-top: 625px
+
+
+  .video-info-text
+    text-align: center
+    color: $White
+
+#close-popup
+  margin-left: 50px
+  font-size: 150%
+  margin-top: 30px
+
+.close-icon
+  color: $Yankees-Blue
+
+.footer
+  height: 250px
+  width: 100%
+  background-color: $Yankees-Blue
+
+  .footer-list
+    list-style: none
+    margin-left: 50px
+    padding-top: 25px
+    color: $White
+
+  .footer-list li
+    margin-bottom: 5px
+
+  .footer-list li a:link,
+  .footer-list li a:visited
+      text-decoration: none
+      color: $White
+
+  .footer-list li a:hover,
+  .footer-list li a:active
+    color: $Sea-Blue
+    border-bottom: 2px solid $Sea-Blue
+
+
+.about-me-section
+  margin-top: 50px
+  text-align: center
+
+.about-me-header
+  font-size: 150%
+
+.about-me-description
+  margin-left: 10%
+  margin-right: 10%
+
+.home-des
+  font-size: 115%
+  padding-right: 25px
+  font-weight: bold
+  color: $Package-Grey
+
+.home-full
+  margin-top: 50px
+  background-color: $Grey
+  padding-top: 20px
+  padding-bottom: 50px
+
+
+.home-head
+  color: $Sky-Blue
+
+.interests-main
+  background-color: $Sky-Blue
+  text-align: center
+  color: $White
+  margin-top: 30px
+
+.interest-section
+  margin-top: 50px
+  padding-bottom: 50px
+
+.home-section
+  margin-top: 50px
+  color: $Package-Grey
+
+.navi-img1
+  width: 75%
+
+.navi-img2
+  width: 75%
+
+.navi-img3
+  width: 75%
+
+.navi-img4
+  width: 80%
+
+.home-post
+  margin-top: 100px
+
+.interest-list-header
+  font-size: 150%
+  text-align: center
+
+.interests-post
+  margin-top: 100px
+
+.interest-des
+  padding-right: 25px
+  font-weight: bold
+  font-size: 110%
+
+.interest-head
+  color: $Sky-Blue
+
+.interest-photo1
+  padding-left: 150px
+
+.interest-img1
+  width: 90%
+
+.interest-photo2
+  padding-left: 140px
+
+.interest-img2
+  width: 90%
+
+.interest-photo3
+  padding-left: 90px
+
+.interest-img3
+  width: 75%
+
+.interest-photo4
+  padding-left: 170px
+
+.interest-img4
+  width: 100%
+
+.interest-photo5
+  padding-left: 150px
+
+.interest-img5
+  width: 90%
+
+.interest-photo6
+  padding-left: 100px
+
+.interest-img6
+  width: 75%
+
+.wp-1-t,
+.wp-2-t,
+.wp-3-t,
+.wp-4-t,
+.wp-5-t,
+.wp-6-t
+  opacity: 0
+
+.wp-1-p,
+.wp-2-p,
+.wp-3-p,
+.wp-4-p,
+.wp-5-p,
+.wp-6-p
+  animation-delay: 1s
+  opacity: 0
+
+.animated
+  opacity: 1
+
+.contact-header
+  text-align: center
+  margin-top: 25px
+  font-size: 150%
+
+.contact-intro
+  text-align: center
+  margin-left: 20%
+  margin-right: 20%
+
+.contact-intro-text
+  text-align: center
+  font-weight: bold
+  font-size: 115%
+
+.contact-info-bottom
+  margin-top: 30px
+  padding-bottom: 65px
+  text-align: center
+  color: $Sky-Blue
+  font-weight: bold
+  font-size: 115%
+
+.git-link
+  margin-top: 25px
+
+.largeVideoURL
+  position: relative
+
+.service-page-header
+  font-size: 150%
+  text-align: center
+
+.service-listing
+  height: 525px
+  border-radius: 5px
+
+
+.sl1
+  background-color: $Sea-Blue
+
+.sl2
+  background-color: $Yankees-Blue
+
+.sl3
+  background-color: $Green-Blue
+
+.sl4
+  background-color: $Sky-Blue
+
+.sl5
+  background-color: $Grey
+
+.service-listing-icon
+  text-align: center
+  padding-top: 50px
+
+.service-page-head-text
+  font-size: 250%
+
+.service-icon
+  font-size: 250%
+  color: white
+
+.service-listing-text
+  padding-top: 20px
+  color: white
+  margin: 0 10%
+
+.listing-white
+  color: black
+
+.service-listing-title
+  text-align: center
+  color: white
+  margin-top: 10px
+  font-size: 90%
+  text-decoration: underline
+
+.service-listing-title-black
+  text-align: center
+  color: black
+  margin-top: 10px
+  font-size: 90%
+  text-decoration: underline
+
+.service-packages-section
+  margin-top: 50px
+  background-color: $BG-Grey
+  font-weight: lighter
+  padding-bottom: 50px
+
+.service-package-heading
+  margin-left: 25px
+  margin-bottom: 10px
+  padding-top: 50px
+  font-size: 175%
+  text-align: center
+
+.service-packages
+  height: 600px
+  background-color: $Lucky-Grey
+  border-radius: 10px
+
+.service-packages-upgraded
+  height: 600px
+  background-color: $Angel-Grey
+  border-radius: 10px
+
+.service-packages-premium
+  height: 600px
+  background-color: $Platinum-BG
+  border-radius: 10px
+
+
+.packages-head
+  color: $Grey
+  padding-left: 15px
+
+
+.packages-head2
+  color: $Platinum-H
+  padding-left: 15px
+
+
+.services-included
+  margin-left: 25px
+  margin-top: 50px
+  color: white
+  font-size: 95%
+
+.services-included li
+  margin-top: 20px
+
+.price-head
+  text-decoration: underline
+  margin-top: -15px
+  color: $Sky-Blue
+  font-weight: lighter
+  font-size: 165%
+
+.package-title
+  font-size: 270%
+  padding-top: 20px
+  font-weight: lighter
+
+
+.small-background
+  height: 350px !important
+  background-color: $Yankees-Blue
+
+.landing-head
+  text-align: center
+  background-color: $Sky-Blue
+  height: 875px
+  width: 100%
+
+.landing-first
+    color: white
+    padding-top: 50px
+    font-weight: bold
+
+.landing-page-video
+    margin-top: 50px
+
+.landing-second
+    margin-left: 20%
+    margin-right: 20%
+    color: black
+    margin-top: 50px
+
+.landing-btn
+    width: 225px
+    height: 75px
+    text-align: center
+    background-color: $Cool-Red
+    color: white
+    margin-top: 25px
+
+.landing-btn-text
+    margin-top: 25px
+
+
+.lookbook
+  width: 200px
+  height: 75px
+  background-color: $Cool-Red
+  color: $White
+
+.lookbook-heading
+  margin-bottom: 50px
+  font-weight: 700
+
+.lookbook-section
+  text-align: center
+  margin-top: 75px
+  padding-bottom: 50px
+
+.lookbook-text
+  font-weight: 400
+  font-size: 110%
+
+
+.lookbook-text a:link,
+.lookbook-text a:visited
+    text-decoration: none
+    color: $White
+
+.lookbook-text a:hover,
+.lookbook-text a:active
+    color: black
+    border-bottom: 2px solid black
+
+.img-p
+  max-width: 450px
+  max-height: 288px
+
+.img-p-m
+  width: 250px
+  height: 445px
+
+
+.home-images
+  padding: 75px 100px 75px 100px
+  text-align: center
+
+
+.home-images2
+  padding: 50px 100px 50px 100px
+  background-color: $Grey
+
+.white-pad
+  margin-bottom: 10px
+  height: 10px
+  background-color: white
+
+.portfolio-img-header
+  text-align: center
+  margin-top: 65px
+  margin-bottom: -25px
+
+.portfolio-img-header h1
+  font-size: 250%
+
+.service-offer1
+  text-align: center
+  padding-top: 40px
+
+.service-offer2
+  text-align: center
+  padding-top: 100px
+
+.so3
+  margin-bottom: 50px
+
+.icon-2
+  font-size: 300%
+
+.so-1
+  font-size: 500%
+  color: $Sky-Blue
+
+.service-offer-head
+  margin-top: 25px
+  margin-bottom: 25px
+  font-size: 200%
+
+.option-head
+  font-size: 175%
+  padding-bottom: 25px
+  color: $Green-Blue
+
+.option-head2
+  font-size: 130%
+  padding-bottom: 25px
+  color: $Green-Blue
+  margin-top: 15px
+
+.option-row
+  margin-top: 50px
+
+.option-price
+  font-size: 175%
+  color: $Cool-Red
+
+.option-price2
+  font-size: 175%
+  color: $Cool-Red
+
+.option-1
+  margin-top: 50px
+  margin-left: 0px
+
+.service-2-text
+  color: $Cool-Red
+  font-size: 125%
+  font-weight: 400
+
+.mobile-app-dev-text
+  margin-left: 20%
+  margin-right: 20%
+
+.service-number
+  margin-bottom: 15px
+
+.service-bottom
+  padding-bottom: 50px
+
+//.logo-bottom
+  display: inline-block
+  width: 200px
+  margin-left: auto
+  margin-right: auto
+
+.logo-img
+  width: 60px
+  margin: 0 autp
+
+.bottom-img-div
+  text-align: center
+  margin: 0 auto
+  padding-right: 190px
+  display: inline-block
+  width: 80%
+
+
+
+
+
+.footer-links
+  display: inline-block
+  width: 19%
+
+.landing-btn-text a:link,
+.landing-btn-text a:visited
+    text-decoration: none
+    color: $White
+
+.landing-btn-text a:hover,
+.landing-btn-text a:active
+    color: black
+    border-bottom: 2px solid black
+
+.download-link
+  margin-top: 20px
+
+.download-link a:link,
+.download-link a:visited
+    text-decoration: none
+    color: $Cool-Red
+
+.download-link a:hover,
+.download-link a:active
+    color: black
+    border-bottom: 2px solid black
+
+.bottom-contact-info
+  text-align: center
+  color: $White
+  padding-top: 7px
+
+.book-img
+  width: 40%
+
+.book-section
+  text-align: center
+
+.col.span-1-of-3.book-col
+  margin-left: .8%
+
+.book-link
+  padding-top: 15px
+
+.book-link a:link,
+.book-link a:visited
+  text-decoration: none
+  color: $Cool-Red
+  font-weight: 400
+  font-size: 120%
+
+.book-link a:hover,
+.book-link a:active
+  color: black
+  border-bottom: 2px solid black
+
+
+.downloads-head
+  text-align: center
+  font-size: 275%
+
+.dl-lb
+  margin-top: 50px
+
+.slideshow-img
+  width: 600px
+  height: 375px
+  margin: 0 auto
+  padding-top: 20px
+
+.slideshow-info
+  text-align: center
+
+.slideshow-link
+  padding-bottom: 10px
+
+
+#slideImg
+  width: 600px
+  height: 300px
+  opacity: 0
+
+
+#slideLink
+  opacity: 0
+
+#slideDesc
+  opacity: 0
+
+.coming-soon-section
+  width: 100vw
+  height: 100vh
+  background: #1C1B1B
+
+.coming-soon-text-section
+  color: $White
+  width: 70%
+  margin: 0 auto
+  text-align: center
+  padding-top: 20vh
+
+.coming-soon-text
+  font-size: 3.5rem
+  color: #00E9F2
+
+
+.coming-soon-text-description
+  animation-delay: 1s
+  font-size: 1.5rem
+  padding-top: 25px
+  border-bottom: 2px solid grey
+  border-bottom-style: inset
+  padding-bottom: 5px
+
+.coming-soon-img
+  width: 30%
+  margin: 0 auto
+  margin-top: 75px
+  text-align: center
+  opacity: 0
+
+.bMainLogo
+  width: 50%
+  margin: 0 auto
+
+.js--wp-cs-l
+  animation-duration: 2s !important
+  animation-delay: 2s
+
+
+.alert-danger 
+    color: #721c24
+    background-color: #f8d7da
+    border-color: #f5c6cb
+
+
+.alert 
+    position: relative
+    padding: .75rem 1.25rem
+    margin-bottom: 1rem
+    border: 1px solid transparent
+    border-radius: .25rem

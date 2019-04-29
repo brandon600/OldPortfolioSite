@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1200px) {
+
+   .landing-head {
+     max-width: 1200px;
+   }
+
+
+
+}
+
+
+@media only screen and (max-width: 1023px) {
+
+    .logo-bottom {
+      margin-left: 33.5%;
+    }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+  .landing-head {
+    height: 1000px;
+  }
+
+  .logo-img {
+    margin-left: 31%;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .bottom-img-div {
+    padding-right: 225px;
+  }
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+  .landing-page-video {
+    height: 250px;
+    width: 125px;
+  }
+
+  .landing-head {
+    height: 1050px;
+  }
+
+  .logo-bottom {
+    margin-left: 20%;
+  }
+
+  .bottom-img-div {
+    padding-right: 190px;
+  }
+
+}
